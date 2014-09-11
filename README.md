@@ -1,7 +1,5 @@
-scala-for-the-impatient
+learning-scala
 =======================
-
-Working through Scala for the Impatient
 
 Notes:
 
