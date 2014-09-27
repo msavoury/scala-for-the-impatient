@@ -11,6 +11,12 @@ class Beverage(val name:String, val ounces:Int) {
 
 class Coffee(name:String, ounces:Int) extends Beverage(name,  ounces) {
 	def brand = name
+	override def size:String = {
+		if (ounces < 8 ) { "pequi" }
+		else if (ounces < 16) { "medi"}
+		else if (ounces < 32) {"grande"}
+		else { "venti " }
+	}
 }
 
 object BeverageShop extends App {
